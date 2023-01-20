@@ -1,0 +1,41 @@
+body {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-pq1oH2kE0-o%2FWAoL5_-5L9I%2FAAAAAAAAENI%2Fu1ZoPz_WVW4fReIaJT8CU0Z9gwn7xkmKgCLcB%2Fs1600%2FRick%252Band%252BMorty%252BBackgrounds%252B21.jpg&f=1&nofb=1&ipt=5fbb55e536a7996f900933c3254fb9bdaf1d5817aee329c5b187715f68250839&ipo=images');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+label {
+  margin: 10px 0;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
